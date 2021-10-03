@@ -5,9 +5,9 @@ namespace DotNetLab1
 {
     public static class StringHelpers
     {
-        public static List<string> ComputeWordsFromSentence (this string sentence)
+        public static List<string> ComputeWordsFromSentence(this string sentence)
         {
-            if(sentence is null)
+            if (sentence is null)
             {
                 return new();
             }
